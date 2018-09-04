@@ -272,7 +272,9 @@ Linux/Mac OS X:
 Monkop CLI uses Python + CURL to use Monkop’s API in order to run tests, show results and also update build status (if needed). So the prerequisites are:
 
 1- CURL: If you don’t have it, please install curl where Jenkins will run your build process.
+
 2- Enable the use of the API getting your APIKey on your Monkop account under the ‘Add-ons’ option [https://console.monkop.com/addOns.xhtml](https://console.monkop.com/addOns.xhtml)
+
 3- Python 2.7 installed (installed by default on Mac OS X and most Linux distros) [https://www.python.org/download/releases/2.7/](https://www.python.org/download/releases/2.7/)
 
 Adding Monkop tests to your Jenkins pipeline will let your team automatically get key information on each build regarding how your app behaves on real devices while evaluating mobile-side performance. 
