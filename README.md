@@ -28,7 +28,7 @@
 
 - [Integrations](#integrations)
    - [Performance Profiling with Espresso](#performance-profiling-with-espresso)       
-   - [Jenkis](#jenkis)
+   - [Jenkins](#jenkins)
    - [Travis](#travis)
    - [Github](#github)
 
@@ -237,7 +237,7 @@ When we use Continuous Integration tools, we start looking at automation, notifi
 Adding Monkop CLI after your build process will provide your team a dedicated bot that automatically installs your app on all relevant real devices (including different OS versions / screen sizes) and starts playing with it, looking for crashes and other common problems.
  
 
-##### Jenkis
+##### Jenkins
 
 ![Jenkis](https://www.monkop.com/img/addons/jenkins_logo.png)
 
@@ -265,7 +265,7 @@ Linux/Mac OS X:
 
 3.-  Consider setting monkopapikey as an environment variable using [EnvInject Plugin](https://wiki.jenkins.io/display/JENKINS/EnvInject+Plugin) and injecting the variable as a password in your job
 
-![Jenkis3](http://www.monkop.com/img/github/Jenkins3.png)
+![Jenkins3](http://www.monkop.com/img/github/Jenkins3.png)
 
 > Note: Environment variables can be accessed using the syntax $monkopapikey (Linux/Mac OS X) or %monkopapikey%  (Windows). 
 
