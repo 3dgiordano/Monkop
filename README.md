@@ -279,20 +279,6 @@ Monkop CLI uses Python + CURL to use Monkop’s API in order to run tests, show 
 
 3- Python 2.7 installed (installed by default on Mac OS X and most Linux distros) [https://www.python.org/download/releases/2.7/](https://www.python.org/download/releases/2.7/)
 
-You can also install the plugin of Monkop for Jenkis.The following steps will help you to accomplish this:
-
-1- Download the .hpi file from this repository https://github.com/MonkopApps/monkop_jenkins_plugin
-
-2- In Jenkins go to Manage Jenkins and then click on Manage Plugins.
-
-3 - Click on section Advanced and upload the .hpi file to install the plugin.
-
-![JenkinsPlugin](http://www.monkop.com/img/github/jenkinsPlugin.png)
-
-4 - After installing it, create a new job or go to an already existing one. You will see on section Build, one new option called’ Execute Monkop’. Select it and fill in the blanks. From now on, Monkop will take care automatically of getting key information on each build.
-
-![JenkinsPlugin2](http://www.monkop.com/img/github/jenkinsPlugin2.png)
-
 
 Adding Monkop tests to your Jenkins pipeline will let your team automatically get key information on each build regarding how your app behaves on real devices while evaluating mobile-side performance. 
 
