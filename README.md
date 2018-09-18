@@ -349,7 +349,17 @@ To revoke Monkop privileges, click the revoke access button in GitHub add-ons se
 
 As a result you will be adding Monkop to your pipeline, enabling your team to have each build under test using real devices, tagged and documented with just a few steps, running smoke / sanity tests, evaluating mobile side performance or running even more complex tests. 
 
+<p>
+ <script>
+      window.intercomSettings = {
+        app_id: "s51bjg94"
+      };
+</script>
 
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s51bjg94';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+
+</p>
 
 
 
