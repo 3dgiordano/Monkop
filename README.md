@@ -21,6 +21,7 @@
     - [Create your account](#create-your-account)
     - [Upload your app to Monkop](#upload-your-app-to-monkop)  
     - [Ad Hoc mode for iOS apps](#ad-hoc-mode-for-ios-apps)
+    - [Discover forms feature](#discover-forms-feature)
  
 - [Understanding Monkop Report](#understanding-monkop-report)
 
@@ -71,6 +72,31 @@ The ad hoc provisioning profile should contain the text: “Ad Hoc”.
 
 Click the Export button and export the ipa file.
 
+#### Discover Forms Feature
+
+Sometimes Monkop doesn’t have a clue about the right data to use in each screen (for example if it doesn’t know user/password to sign in), and it uses random data for test execution. For that reason, when you upload an app, Monkop asks you whether you want to feed it with your own data or not. 
+
+![DiscoverForms](http://www.monkop.com/img/github/DiscoverForms.png)
+
+If you select discover forms, after receiving the report associated you can add your own test data to be used (only on text inputs) by selecting each screenshot on your console and typing your own values. 
+
+Here you have 4 simple steps to accomplish this:
+
+Step 1) Just go to the project (app) you are working on:
+
+![DiscoverFormsStep1](http://www.monkop.com/img/github/DiscoverFormsStep1.png)
+
+Step 2) Then click on “View test data” button:
+
+![DiscoverFormsStep2](http://www.monkop.com/img/github/DiscoverFormsStep2.png)
+
+Step 3) Click on “Edit Form Data”:
+
+![DiscoverFormsStep3](http://www.monkop.com/img/github/DiscoverFormsStep3.png)
+
+Step 4) Put your values on the form:
+
+![DiscoverFormsStep4](http://www.monkop.com/img/github/DiscoverFormsStep4.png)
 
 
 ## Understanding Monkop Report
