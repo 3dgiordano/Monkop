@@ -50,22 +50,22 @@ For IOS apps you need to export your app in ad hoc mode before uploading it to M
 Create an archive of your app. Xcode stores this archive in the Archives organizer.
 Choose Product > Archive. The Archives organizer appears and displays the new archive.
 
-![adHoc](http://www.monkop.com/img/github/adHoc.jpg)
+![adHoc](https://www.monkop.com/img/github/adHoc.jpg)
 
 
 **2) Exporting Your App to IPA**
 
 To create an iOS App file for testing, select the archive in the Archives organizer.
 
-![adHoc2](http://www.monkop.com/img/github/adHoc2.jpg)
+![adHoc2](https://www.monkop.com/img/github/adHoc2.jpg)
 
 Click the Export button, and select “Ad Hoc”. The app will be code signed with the distribution certificate.
 
-![adHoc3](http://www.monkop.com/img/github/adHoc3.jpg)
+![adHoc3](https://www.monkop.com/img/github/adHoc3.jpg)
 
 Click the Next button until the process finishes.
 
-![adHoc4](http://www.monkop.com/img/github/adHoc4.jpg)
+![adHoc4](https://www.monkop.com/img/github/adHoc4.jpg)
 
 In the dialog that appears, review the app, its entitlements, and the provisioning profile.
 The ad hoc provisioning profile should contain the text: “Ad Hoc”.
@@ -76,7 +76,7 @@ Click the Export button and export the ipa file.
 
 Sometimes Monkop doesn’t have a clue about the right data to use in each screen (for example if it doesn’t know user/password to sign in), and it uses random data for test execution. For that reason, when you upload an app, Monkop asks you whether you want to feed it with your own data or not. 
 
-![DiscoverForms](http://www.monkop.com/img/github/DiscoverForms.png)
+![DiscoverForms](https://www.monkop.com/img/github/DiscoverForms.png)
 
 If you select discover forms, after receiving the report associated you can add your own test data to be used (only on text inputs) by selecting each screenshot on your console and typing your own values. 
 
@@ -84,19 +84,19 @@ Here you have 4 simple steps to accomplish this:
 
 Step 1) Just go to the project (app) you are working on:
 
-![DiscoverFormsStep1](http://www.monkop.com/img/github/DiscoverFormsStep1.png)
+![DiscoverFormsStep1](https://www.monkop.com/img/github/DiscoverFormsStep1.png)
 
 Step 2) Then click on “View test data” button:
 
-![DiscoverFormsStep2](http://www.monkop.com/img/github/DiscoverFormsStep2.png)
+![DiscoverFormsStep2](https://www.monkop.com/img/github/DiscoverFormsStep2.png)
 
 Step 3) Click on “Edit Form Data”:
 
-![DiscoverFormsStep3](http://www.monkop.com/img/github/DiscoverFormsStep3.png)
+![DiscoverFormsStep3](https://www.monkop.com/img/github/DiscoverFormsStep3.png)
 
 Step 4) Put your values on the form:
 
-![DiscoverFormsStep4](http://www.monkop.com/img/github/DiscoverFormsStep4.png)
+![DiscoverFormsStep4](https://www.monkop.com/img/github/DiscoverFormsStep4.png)
 
 
 ## Understanding Monkop Report
@@ -106,7 +106,7 @@ Every time you run a test, a new report is created. After that, Monkop emails yo
 
 This section explains how to understand Monkop report after each execution (test-ride). This is how it looks like:
 
-![Report](http://www.monkop.com/img/github/Report.png)
+![Report](https://www.monkop.com/img/github/Report.png)
 
 The report is a web page, so it can be accessible from any browser. It contains a left navigation panel and dashboard overview.
 
@@ -130,17 +130,17 @@ The following chart shows the latest Android market stats based on data [collect
 
 This is the **most important section**, since it has each device-specific execution. It shows executions that user has manually selected, or those one that Monkop has automatically selected for him.
 
-![Report1](http://www.monkop.com/img/github/Report1.png)
+![Report1](https://www.monkop.com/img/github/Report1.png)
 
 Clicking on any device, users will find device specific information about execution:
 
-![Report2](http://www.monkop.com/img/github/Report2.png)
+![Report2](https://www.monkop.com/img/github/Report2.png)
 
 Below this information users will find all details about device performance, videos, screenshots and logs.
 
-![Report3](http://www.monkop.com/img/github/Report3.png)
+![Report3](https://www.monkop.com/img/github/Report3.png)
 
-![Report4](http://www.monkop.com/img/github/Report4.png)
+![Report4](https://www.monkop.com/img/github/Report4.png)
 
 
 You can also download a more detailed [pdf guide here](https://static.monkop.com/documents/Explaining%20Report.pdf).
@@ -152,7 +152,7 @@ You can also download a more detailed [pdf guide here](https://static.monkop.com
 
 Monkop CLI is a command-line tool that enables a new kind of automation in your build process, allowing you to run Monkop tests automatically in your development cycle (without disturbance). 
 
-![MonkopCLIPipeline](http://www.monkop.com/img/github/MonkopCLIPipeline.jpg)
+![MonkopCLIPipeline](https://www.monkop.com/img/github/MonkopCLIPipeline.jpg)
 
 Monkop will test your mobile apps in different kinds of real devices while your team remains focused on others steps of your building process. All you need is a Monkop account and to follow these simple steps to enable your app to be tested.
 
@@ -251,7 +251,7 @@ To use Espresso scripts on Monkop, follow these simple steps:
 
 2) Upload your Espresso scripts using option #2 of the image below:
  
-![EspressoOption](http://www.monkop.com/img/github/EspressoOption.png)
+![EspressoOption](https://www.monkop.com/img/github/EspressoOption.png)
  
 3) Wait for the results in your inbox.
 
@@ -273,13 +273,13 @@ With this Jenkins integration you will be able to add mobile tests on real devic
 
 1.- Create a new freestyle job: 
 
-![Jenkis1](http://www.monkop.com/img/github/Jenkins1.png)
+![Jenkis1](https://www.monkop.com/img/github/Jenkins1.png)
 
 2.- Create a command line build step.
   - Linux: “Execute shell” 
   - Windows: “Execute Windows batch command” 
   
-![Jenkis2](http://www.monkop.com/img/github/Jenkis2.png)
+![Jenkis2](https://www.monkop.com/img/github/Jenkis2.png)
 
 setting the following commands inside:	
 
@@ -291,7 +291,7 @@ Linux/Mac OS X:
 
 3.-  Consider setting monkopapikey as an environment variable using [EnvInject Plugin](https://wiki.jenkins.io/display/JENKINS/EnvInject+Plugin) and injecting the variable as a password in your job
 
-![Jenkins3](http://www.monkop.com/img/github/Jenkins3.png)
+![Jenkins3](https://www.monkop.com/img/github/Jenkins3.png)
 
 > Note: Environment variables can be accessed using the syntax $monkopapikey (Linux/Mac OS X) or %monkopapikey%  (Windows). 
 
@@ -316,11 +316,11 @@ Adding Monkop tests to your Jenkins pipeline will let your team automatically ge
 
 1. Enable Monkop’s API in your Add-ons section: [https://console.monkop.com/addOns.xhtml](https://console.monkop.com/addOns.xhtml)
 
-![Travis1](http://www.monkop.com/img/github/Travis1.png)
+![Travis1](https://www.monkop.com/img/github/Travis1.png)
 
 2. Add Monkop APIKey as a Travis-CI Variable in [Repository Settings](https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings) named **monkopapikey**:
 
-![Travis2](http://www.monkop.com/img/github/Travis2.png)
+![Travis2](https://www.monkop.com/img/github/Travis2.png)
 
 3. Update your travis file **.travis.yml** 
 We recommend using Monkop-cli in the **after_success** section, but each DevOp designs his or her own pipeline:
@@ -355,23 +355,23 @@ Monkop has a bot that contributes to your build steps and documentation with tes
 
 1. Enable github add-ons in the Monkop console and authorize to give Monkop these permissions:
 
-![Github1](http://www.monkop.com/img/github/Github1.png)
+![Github1](https://www.monkop.com/img/github/Github1.png)
 
 2.  You will be redirected to GitHub in order to authorize application:
 
-![Github2](http://www.monkop.com/img/github/Github2.png)
+![Github2](https://www.monkop.com/img/github/Github2.png)
 
 3. Then you will see your GitHub account info inside Monkop’s console:
 
-![Github3](http://www.monkop.com/img/github/Github3.png)
+![Github3](https://www.monkop.com/img/github/Github3.png)
 
 **Now all pull-requests in GitHub can be tagged by Monkop**
 
-![Github4](http://www.monkop.com/img/github/Github4.png)
+![Github4](https://www.monkop.com/img/github/Github4.png)
 
 To revoke Monkop privileges, click the revoke access button in GitHub add-ons section in the Monkop console. This will redirect you to GitHub settings so you can revoke access anytime: 
 
-![Github5](http://www.monkop.com/img/github/Github5.png)
+![Github5](https://www.monkop.com/img/github/Github5.png)
 
 As a result you will be adding Monkop to your pipeline, enabling your team to have each build under test using real devices, tagged and documented with just a few steps, running smoke / sanity tests, evaluating mobile side performance or running even more complex tests. 
 
