@@ -7,6 +7,7 @@
 
   <p align="center">
     Measure, analyze and optimize the performance of your Android and iOS apps.
+    Deliver the best experience to your mobile users. 
     <br>
     <br>
     <a href="https://github.com/MonkopApps/Monkop/issues/new">Report bug</a>
@@ -158,7 +159,7 @@ Monkop will test your mobile apps in different kinds of real devices while your 
 
 #### Installing Monkop CLI
 
-Monkop CLI is a Python (v2.7) script that handles all communication with Monkop’s API using [your account (APIKey)](https://console.monkop.com/apikey.xhtml?red=apikey). Once you have it, just download the latest version here: [monkop.com/cli](https://www.monkop.com/cli)
+Monkop CLI is a Python (v2.7) script that handles all communication with Monkop’s API using [your account (APIKey)](https://console.monkop.com/apikey.xhtml?red=apikey). Once you have it, just download the latest version here: [monkop.com/cli](monkop.com/cli)
 
 
 
