@@ -7,6 +7,7 @@
 
   <p align="center">
     Measure, analyze and optimize the performance of your Android and iOS apps.
+  <br>
     Deliver the best experience to your mobile users. 
     <br>
     <br>
