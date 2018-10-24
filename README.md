@@ -286,10 +286,10 @@ With this Jenkins integration you will be able to add mobile tests on real devic
 setting the following commands inside:	
 
 Windows:
-\> curl -sL monkop.com/cli \| python - -k %monkopapikey% -a “path_to_build.apk”
+\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k %monkopapikey% -a “path_to_build.apk”
 
 Linux/Mac OS X:
-\> curl -sL monkop.com/cli \| python - -k $monkopapikey -a “path_to_build.apk”
+\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k $monkopapikey -a “path_to_build.apk”
 
 3.-  Consider setting monkopapikey as an environment variable using [EnvInject Plugin](https://wiki.jenkins.io/display/JENKINS/EnvInject+Plugin) and injecting the variable as a password in your job
 
