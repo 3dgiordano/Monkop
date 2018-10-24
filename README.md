@@ -219,7 +219,7 @@ First you need your app ready, if you don’t have one, you still can test some 
 
 #### Download and run in a single line with CURL
 
-\> curl -sL [monkop.com/cli](https://t.umblr.com/redirect?z=http%3A%2F%2Fmonkop.com%2Fcli&t=NjAwYTNkMDQ4YWJlNWNjNzA0OGJjOTA1YjZlMTM4ZjYzYjBkMGJjMSxxd1NzMGI2OA%3D%3D&b=t%3Aj2vXGmOlJnvqzl_PwMFFbw&p=http%3A%2F%2Fblog.monkop.com%2Fpost%2F145870436366%2Fmonkop-cli-for-your-build-pipeline&m=1) \| python - -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a  “[http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
+\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a  “[http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
 
 #### Prerequisites
 
@@ -327,7 +327,7 @@ Adding Monkop tests to your Jenkins pipeline will let your team automatically ge
 3. Update your travis file **.travis.yml** 
 We recommend using Monkop-cli in the **after_success** section, but each DevOp designs his or her own pipeline:
 
-\> curl -sL monkop.com/cli \| python - -k $monkopapikey -a “path_to_build.apk”
+\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k $monkopapikey -a “path_to_build.apk”
 
 \> Sample .travis.yml
 
@@ -340,7 +340,7 @@ android:
      - build-tools-19.0.0
      
 after_success:
-- curl -sL monkop.com/cli \| python - -k $monkopapikey -a “path_to_build.apk” 
+- curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k $monkopapikey -a “path_to_build.apk” 
 
 
 **Note:** According to [travis-ci documentation](https://docs.travis-ci.com/user/customizing-the-build/), if Monkop-cli is invoked from a script step, any failure of the apk processing will make your travis build fail. On the other hand, if you set up Monkop-cli on after_success or after_script step, your Monkop tests will never affect your build result.
