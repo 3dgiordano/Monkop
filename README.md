@@ -158,7 +158,7 @@ Monkop will test your mobile apps in different kinds of real devices while your 
 
 #### Installing Monkop CLI
 
-Monkop CLI is a Python (v2.7) script that handles all communication with Monkop’s API using [your account (APIKey)](https://console.monkop.com/apikey.xhtml?red=apikey). Once you have it, just download the latest version here: [monkop.com/cli](https://t.umblr.com/redirect?z=http%3A%2F%2Fmonkop.com%2Fcli&t=NjAwYTNkMDQ4YWJlNWNjNzA0OGJjOTA1YjZlMTM4ZjYzYjBkMGJjMSxxd1NzMGI2OA%3D%3D&b=t%3Aj2vXGmOlJnvqzl_PwMFFbw&p=http%3A%2F%2Fblog.monkop.com%2Fpost%2F145870436366%2Fmonkop-cli-for-your-build-pipeline&m=1)
+Monkop CLI is a Python (v2.7) script that handles all communication with Monkop’s API using [your account (APIKey)](https://console.monkop.com/apikey.xhtml?red=apikey). Once you have it, just download the latest version here: [monkop.com/cli](https://www.monkop.com/cli)
 
 
 
