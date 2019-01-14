@@ -20,8 +20,8 @@
 ## Table of contents
 
 - [Getting Started](#getting-started)
-    - [Create your account](#create-your-account)
-    - [Upload your app to Monkop](#upload-your-app-to-monkop)  
+    - [Create your account](#1--create-your-account)
+    - [Upload your app to Monkop](#2--upload-your-app-to-monkop)  
     - [Ad Hoc mode for iOS apps](#ad-hoc-mode-for-ios-apps)
     - [Discover forms feature](#discover-forms-feature)
  
