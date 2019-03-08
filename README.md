@@ -188,13 +188,13 @@ You can get help from the command-line tool by calling monkop-cli -h
 
 **Application:**
 
- -a appfile           Public URL or local path to application file
+ -a appfile           Local path to application file
 
 **Script:**
 
  -st type              Type of script file. Valid values: ESPRESSO
  
- -sf scriptfile       Public URL or local path to script file
+ -sf scriptfile       Local path to script file
 
 **Notification:**
 
@@ -215,11 +215,11 @@ You can get help from the command-line tool by calling monkop-cli -h
 
 First you need your app ready, if you don’t have one, you still can test some 3rd-party app to see what happens: 
 
-\> python monkop-cli.py -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a “[http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
+\> python monkop-cli.py -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a “[Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
 
 #### Download and run in a single line with CURL
 
-\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a  “[http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
+\> curl -sL [monkop.com/cli](http://monkop.com/cli) \| python - -k [YOURAPIKEY](https://console.monkop.com/apikey.xhtml) -w -a  “[Google_IO_2016_4.4.6.apk](http://static.monkop.com/setup/apps_demo/Google_IO_2016_4.4.6.apk)”
 
 #### Prerequisites
 
